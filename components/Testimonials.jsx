@@ -38,7 +38,7 @@ const Testimonials = () => {
   return (
     <div className="py-5 pb-md-6 pb-lg-7 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-center text-black mb-5">What our clients are saying..</h1>
+        <h1 className="text-4xl font-serif text-center text-black mb-5">What our clients are saying..</h1>
         <div className="overflow-x-auto" ref={testimonialContainerRef}>
           <div className="flex flex-nowrap -mx-4">
             <TestimonialBox
