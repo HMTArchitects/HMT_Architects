@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { Hero, Gallerycarousel, Whyhmt, Testimonials,Footer } from "../components";
+import { Hero, Gallerycarousel, Whyhmt, Testimonials} from "../components";
 export default function Home() {
   return (
     <>
@@ -8,7 +8,6 @@ export default function Home() {
     <Whyhmt/>
     <Gallerycarousel/>
     <Testimonials/>
-    <Footer/>
     </>
   )
 }
