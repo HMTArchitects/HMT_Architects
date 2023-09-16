@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Gallerycarousel from "./Gallerycarousel";
 import Whyhmt from "./Whyhmt";
-import Testimonials from "./Testimonials";import Testimonials from "./Testimonials";
+import Testimonials from "./Testimonials";
 
 
 export {
@@ -10,4 +10,5 @@ export {
     Navbar,
     Gallerycarousel,
     Whyhmt,
+    Testimonials,
 }
