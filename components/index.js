@@ -12,5 +12,5 @@ export {
     Gallerycarousel,
     Whyhmt,
     Testimonials,
-    Footer
+    Footer,
 }
