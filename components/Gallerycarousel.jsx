@@ -5,8 +5,8 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import Image from 'next/image';
 
 const Gallerycarousel = () => {
-  const LeftIcon = () => <MdChevronLeft size={40} />;
-const RightIcon = () => <MdChevronRight size={40} />;
+  const LeftIcon = () => <MdChevronLeft size={50} className='text-black' />;
+  const RightIcon = () => <MdChevronRight size={50} className='text-black' />;
   // Inside your component
 const slideLeft = () => {
   var slider = document.getElementById('slider');
@@ -19,9 +19,9 @@ const slideRight = () => {
 };
 
 return (
-  <div>
+  <div className=' pb-10 bg-gray-100'>
     <div className='text-white ml-12'>
-      <h1 className='text-4xl'>Our Designs</h1>
+      <h1 className='text-4xl text-black font-serif text-center mb-5'>Project Gallery!</h1>
     </div>
     <div className='relative flex items-center'>
       <div
@@ -36,7 +36,8 @@ return (
       >
         {data.map((item) => (
           <Image
-            className=' inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
+            key={item.id}
+            className=' inline-block p-4 cursor-pointer hover:scale-110 ease-in-out duration-300 shadow-md rounded-lg'
             src= {item.img}
             width={380}
             height={100}
