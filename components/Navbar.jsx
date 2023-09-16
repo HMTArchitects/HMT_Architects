@@ -1,74 +1,53 @@
-'use client'
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
-import {FiMenu} from 'react-icons/fi';
-
-function NavBar() {
-  const [navbar, setNavbar] = useState(false);
+"use client";
+import Image from "next/image";
+import logo from "../assets/hmtLogo.jpg";
+import Link from "next/link";
+function NavBar(props) {
   return (
-    <div>
-      <nav className="w-full bg-black  top-0 left-0 right-0 z-10">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-          <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              {/* LOGO */}
-              <Link href="/">
-                <h2 className="text-2xl text-cyan-600 font-bold ">LOGO</h2>
-              </Link>
-              {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="md:hidden">
-                <button
-                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                  onClick={() => setNavbar(!navbar)}
-                >
-                  {navbar ? (
-                    <FiMenu width={50} height={50} alt="logo" />
-                  ) : (
-                    <FiMenu
-                      color='white'
-                      width={50}
-                      height={50}
-                      alt="logo"
-                      className="focus:border-none active:border-none"
-                    />
-                  )}
-                </button>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                navbar ? 'p-12 md:p-0 block' : 'hidden'
-              }`}
-            >
-              <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
-                    About
-                  </Link>
-                </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
-                    Projects
-                  </Link>
-                </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
-                    Testimonials
-                  </Link>
-                </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <div className="navbar pb-20">
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      />
+      
+      <div className="grid grid-cols-3 justify-evenly px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white">
+        <Link href="/"><Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" /></Link>
+        <div className="flex items-center border rounded-full shadow-md h-12 w-96">
+          < Link href="/about"><button className="border-r-2 text-sm font-semibold text-gray-950 px-4 hover:text-yellow-600">
+            About Us
+          </button></Link>
+          <Link href="/Testimonials"><button className="border-r-2 text-sm font-semibold text-gray-950 px-4  hover:text-yellow-600">
+            Testimonials
+          </button></Link>
+          <Link href="/projects"><button className="text-sm font-medium text-gray-400 px-4  hover:text-yellow-600">
+            See Projects
+          </button><i class="fa-regular fa-eye  bg-red-600 text-white rounded-full p-2 "></i></Link>
+          
+          
         </div>
-      </nav>
+        <div className="flex justify-end items-center gap-6">
+          <button className="text-sm font-semibold text-gray-900">
+            Best Architects in Chennai
+          </button>
+          <div className=" flex items-center h-14 w -10"><i className="fa-solid fa-award  bg-yellow-400 text-gray-950 rounded-full p-2"></i></div>
+    <Link href="contactus"><div className="flex justify-evenly items-center gap-2 rounded-full shadow-md border h-10 w-32">
+            <button className="text-sm font-semibold text-gray-900">Contact Us</button>
+            <i class="fa-solid fa-phone-volume text-gray-950"></i>
+          </div></Link>
+          
+        </div>
+      </div>
     </div>
   );
 }
