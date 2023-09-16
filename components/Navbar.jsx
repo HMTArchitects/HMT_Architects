@@ -13,20 +13,21 @@ function NavBar(props) {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
+        crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
       />
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       />
+      
       <div className="grid grid-cols-3 justify-evenly px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white">
         <Link href="/"><Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" /></Link>
         <div className="flex items-center border rounded-full shadow-md h-12 w-96">
           < Link href="/about"><button className="border-r-2 text-sm font-semibold text-gray-950 px-4 hover:text-yellow-600">
             About Us
           </button></Link>
-          <Link href="/testimonials"><button className="border-r-2 text-sm font-semibold text-gray-950 px-4  hover:text-yellow-600">
+          <Link href="/Testimonials"><button className="border-r-2 text-sm font-semibold text-gray-950 px-4  hover:text-yellow-600">
             Testimonials
           </button></Link>
           <Link href="/projects"><button className="text-sm font-medium text-gray-400 px-4  hover:text-yellow-600">
