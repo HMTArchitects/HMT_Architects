@@ -35,14 +35,16 @@ return (
         className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
       >
         {data.map((item) => (
+          <div className='inline-block p-3'>
           <Image
             key={item.id}
-            className=' inline-block p-4 cursor-pointer hover:scale-110 ease-in-out duration-300 shadow-md rounded-lg'
+            className='cursor-pointer hover:scale-110 ease-in-out duration-300 shadow-lg rounded-xl'
             src= {item.img}
             width={380}
             height={100}
             alt='/'
           />
+          </div>
         ))}
       </div>
       <div
