@@ -23,7 +23,7 @@ return (
     <div className='text-white ml-12'>
       <h1 className='text-4xl text-black font-serif text-center mb-5'>Project Gallery!</h1>
     </div>
-    <div className='relative flex items-center'>
+    <div className='flex items-center'>
       <div
         className='opacity-50 cursor-pointer hover:opacity-100'
         onClick={slideLeft}
