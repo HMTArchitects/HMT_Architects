@@ -26,22 +26,23 @@ const testimonialsData = [
 
 const TestimonialBox = ({ quote, category, author }) => {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4 mb-4 relative mt-[3.7rem] ml-[4rem] mr-[3rem]">
+    <div className="w-full md:w-1/2 lg:w-1/3 p-4 mb-4 relative mt-4 md:mt-[4rem] ml-4 md:ml-[4rem] mr-4 md:mr-[3rem]">
       <div className="testimonial bg-white rounded-lg shadow-lg p-4 h-full w-full border-t-4 border-black text-center text-gray-700">
-        <blockquote className="mb-4 p-9">
-          <p className="text-gray-700 italic font-serif text-lg">{quote}</p>
+        <blockquote className="mb-2 md:mb-4 p-2 md:p-9">
+          <p className="text-gray-700 italic font-serif text-lg md:text-lg">{quote}</p>
         </blockquote>
-        <p className="font-extrabold mb-1 font">{category}</p>
-        <p className="text-gray-600 italic font-serif">{author}</p>
+        <p className="font-extrabold mb-1 text-xl md:text-xl">{category}</p>
+        <p className="text-gray-600 italic font-serif text-large md:text-base">{author}</p>
       </div>
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-10 z-20">
-        <div className="w-[6rem] h-[6rem] bg-white rounded-full flex items-center justify-center shadow-lg">
-          <span className="text-[4rem] text-bold p-8 mt-8 font-extrabold font-serif">”</span>
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-6 md:-mt-10 z-20">
+        <div className="w-[4rem] h-[4rem] md:w-[6rem] md:h-[6rem] bg-white rounded-full flex items-center justify-center shadow-lg">
+          <span className="text-[2rem] md:text-[4rem] text-bold text-2xl p-[0.5rem] md:p-8 mt-[0.5rem] md:mt-10 font-extrabold font-serif">”</span>
         </div>
       </div>
     </div>
   );
 };
+
 
 
 
@@ -73,7 +74,7 @@ const Testimonials = () => {
   return (
     <div className="py-5 pb-md-6 pb-lg-7 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-center text-black mb-5">What our clients are saying..</h1>
+        <h1 className="text-3xl text-center text-black mb-5 font-se">What our clients are saying..</h1>
         <div className="overflow-x-auto scrollbar-hide">
           <div className="flex flex-wrap -mx-2 justify-center">
             {visibleTestimonials.map((testimonial, index) => (
