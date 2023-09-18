@@ -29,10 +29,10 @@ const TestimonialBox = ({ quote, category, author }) => {
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 mb-4 relative mt-4 md:mt-[4rem] ml-4 md:ml-[4rem] mr-4 md:mr-[3rem]">
       <div className="testimonial bg-white rounded-lg shadow-lg p-4 h-full w-full border-t-4 border-black text-center text-gray-700">
         <blockquote className="mb-2 md:mb-4 p-2 md:p-9">
-          <p className="text-gray-700 italic font-serif text-lg md:text-lg">{quote}</p>
+          <p className="text-gray-700 italic font-serif text-xl md:text-xl">{quote}</p>
         </blockquote>
         <p className="font-extrabold mb-1 text-xl md:text-xl">{category}</p>
-        <p className="text-gray-600 italic font-serif text-large md:text-base">{author}</p>
+        <p className="text-gray-600 italic font-serif text-lg md:text-xl">{author}</p>
       </div>
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-6 md:-mt-10 z-20">
         <div className="w-[4rem] h-[4rem] md:w-[6rem] md:h-[6rem] bg-white rounded-full flex items-center justify-center shadow-lg">
