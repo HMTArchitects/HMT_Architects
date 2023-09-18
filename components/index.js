@@ -4,7 +4,7 @@ import Gallerycarousel from "./Gallerycarousel";
 import Whyhmt from "./Whyhmt";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
-
+import Contactus from "./Contactus";
 
 export {
     Hero,
@@ -13,4 +13,5 @@ export {
     Whyhmt,
     Testimonials,
     Footer,
+    Contactus,
 }
