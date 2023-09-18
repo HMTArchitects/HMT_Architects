@@ -21,7 +21,7 @@ function NavBar(props) {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       />
       
-      <div className="grid grid-cols-3 justify-evenly px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white">
+      <div className="grid grid-cols-3 justify-evenly px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white z-40">
         <Link href="/"><Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" /></Link>
         <div className="flex items-center border rounded-full shadow-md h-12 w-96">
           < Link href="/about"><button className="border-r-2 text-sm font-semibold text-gray-950 px-4 hover:text-yellow-600">
