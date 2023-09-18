@@ -62,7 +62,7 @@ function NavBar(props) {
       </div>
 
       {/* Responsive Section */}
-      <div className=" grid grid-cols-3 justify-between px-10 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white lg:hidden">
+      <div className=" grid grid-cols-3 justify-between px-10 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white lg:hidden z-50">
         <Link href="/">
           <Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" />
         </Link>
