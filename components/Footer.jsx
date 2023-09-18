@@ -7,8 +7,8 @@ const Footer = () => {
   const [footerNav, setFooterNav] = useState(false); // Use a different state variable for the footer navigation
 
   return (
-    <div>
-      <footer className="justify-between items-center w-full bg-white bottom-0 left-0 right-0 z-10 fixed">
+    <div className=" flex flex-col h-2">
+      <footer className="justify-between items-center w-full bg-white bottom-0 left-0 right-0">
         <div className="flex justify-between items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 text-gray-950 md:py-5 md:block">
