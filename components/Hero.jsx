@@ -1,8 +1,8 @@
 'use client'
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 import Typed from 'react-typed';
-import home2 from '../assets/pngegg2.png'
+import home2 from '../assets/pngegg2.png';
 const Hero = () => {
   return (
     <div className='bg-white'>
