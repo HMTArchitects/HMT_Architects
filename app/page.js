@@ -1,6 +1,4 @@
-import Image from 'next/image'
-
-import { Hero, Gallerycarousel, Whyhmt,Contactus, Testimonials} from "../components";
+import { Hero, Gallerycarousel, Whyhmt,Contactus, Testimonials, Footer} from "../components";
 export default function Home() {
   return (
     <>
@@ -9,6 +7,7 @@ export default function Home() {
     <Gallerycarousel/>
     <Contactus/>
     <Testimonials/>
+    <Footer/>
     </>
   )
 }
