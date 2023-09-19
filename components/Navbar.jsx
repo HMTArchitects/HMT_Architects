@@ -31,7 +31,7 @@ function NavBar(props) {
               About Us
             </button>
           </Link>
-          <Link href="/Testimonials">
+          <Link href="/testimonials">
             <button className="border-r-2 text-sm font-semibold text-gray-950 px-4  hover:text-yellow-600">
               Testimonials
             </button>
@@ -51,7 +51,7 @@ function NavBar(props) {
             <i className="fa-solid fa-award  bg-yellow-400 text-gray-950 rounded-full p-2"></i>
           </div>
           <Link href="contactus">
-            <div className="flex hover:bg-green-400 justify-evenly items-center gap-2 rounded-full shadow-md border h-10 w-32">
+            <div className="flex hover:bg-yellow-500 justify-evenly items-center gap-2 rounded-full shadow-md border h-10 w-32">
               <button className="text-sm font-semibold text-gray-900">
                 Contact Us
               </button>
@@ -87,7 +87,7 @@ function NavBar(props) {
         </div>
         <div className="grid justify-items-end lg:hidden">
           <Link href="contactus">
-          <div className="flex justify-evenly items-center  rounded-full shadow-md border h-10 w-10 px-18 hover:bg-green-500 xl:hidden">
+          <div className="flex justify-evenly items-center  rounded-full shadow-md border h-10 w-10 px-18 hover:bg-yellow-500 xl:hidden">
             <i className="fa-solid fa-phone-volume text-gray-950"></i>
           </div>
         </Link></div>
