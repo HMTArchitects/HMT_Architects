@@ -1,8 +1,9 @@
 import { Contactus } from "@/components";
 import Iframe from 'react-iframe'
+import { Footer } from "@/components";
 export default function Contact() {
     return (
-                
+            <>  
             <div className="flex md:flex-row flex-col ">
                 <div className="xl:w-2/5 lg:w-2/5 bg-white py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none flex basis-1/2 mx-auto">
                     <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
@@ -50,6 +51,7 @@ export default function Contact() {
 
             <Contactus/>
             </div>
+    <Footer /> </>
         
     )
 }
