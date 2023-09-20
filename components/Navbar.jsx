@@ -73,7 +73,7 @@ function NavBar(props) {
             <i className="fa-solid fa-address-card  bg-red-600 text-white rounded-full p-2  hover:bg-yellow-600"></i>
             </button>
           </Link>
-          <Link href="/Testimonials">
+          <Link href="/testimonials">
             <button className="border-r-2 text-sm text-gray-950 px-2">
             <i className="fa-solid fa-image  bg-red-600 text-white rounded-full p-2  hover:bg-yellow-600"></i>
             </button>
