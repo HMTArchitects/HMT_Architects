@@ -1,11 +1,16 @@
-import { Footer, Testimonials } from '@/components'
+import { Footer,Testimonials } from '@/components'
+import "./style_testi.css"
 import React from 'react'
-
-export default function page() {
+import Head from 'next/head'
+export default function Page() {
   return (
     <>
-    <Testimonials/>
-    <Footer/>
+   <Head><link rel="stylesheet" src="/style_testi.css"></link></Head>
+   <div className='flex justify-center mt-4'>
+    <p className="text-blk heading">TESTIMONIALS</p></div>
+   
+   <Testimonials/>
+   <Footer/>
     </>
   )
 }
