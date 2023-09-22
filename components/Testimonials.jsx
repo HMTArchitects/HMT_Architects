@@ -26,7 +26,7 @@ const testimonialsData = [
 
 const TestimonialBox = ({ quote, category, author }) => {
   return (
-    <div className={`w-full md:w-1/4 lg:w-1/3 p-4 mb-4 relative mt-4 md:mt-[3rem] ml-4 md:ml-[4rem] mr-4 md:mr-[3rem]`}>
+    <div className={`w-full md:w-1/4 lg:w-1/3 p-2 mb-4 relative mt-2 md:mt-[3rem] ml-4 md:ml-[4rem] mr-4 md:mr-[3rem]`}>
       <div className="bg-white rounded-lg shadow-xl p-3 h-full w-full border-t-4 border-black text-center text-gray-700 -z-10">
         <blockquote className="mb-2 md:mb-4 p-2 md:p-9">
           <p className="text-gray-700 italic font-serif text-base sm:text-lg">{quote}</p>
@@ -72,7 +72,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="py-5 pb-md-6 pb-lg-7 bg-gray-100 mt-[5rem] -z-50">
+    <div className="py-5 pb-md-6 pb-lg-7 bg-gray-100 mt-[2rem] -z-50">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl text-center text-black mb-6 font-se">What our clients are saying..</h1>
         <div className="overflow-x-auto scrollbar-hide">
