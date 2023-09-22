@@ -12,7 +12,7 @@ const Whyhmt = () => {
   return (
       <div className="why-hmt py-5 pb-10 pb-md-6 pb-lg-7 bg-gray-100">
         <section className="container animate mx-auto px-4 items-center">
-          <div className="all-partners pb-5 text-4xl font-serif text-center text-black mb-5">Why HMT Architects?</div>
+          <div className="all-partners pb-5 text-4xl font-ubuntu text-center text-black mb-5">Why HMT Architects?</div>
           <div className="icons overflow-x-auto flex flex-wrap gap-20 items-center justify-center -mx-10 ">
             <div className="pr-9 md:shrink-0">
               <Image src={logo1} className='w-40 h-50'/>
