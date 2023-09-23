@@ -60,8 +60,8 @@ export const data = [
     {
       id: 9,
       img:img9,
-      link: '../projects/tagoreschool',
-      name: " "
+      link: '../projects/ashokresidence',
+      name: "Mr. Ashok"
     },
   ];
   
