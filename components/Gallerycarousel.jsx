@@ -3,6 +3,7 @@ import React from 'react'
 import { data } from '../constants/gallery_img';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Gallerycarousel = () => {
   const LeftIcon = () => <MdChevronLeft size={50} className='text-black' />;
@@ -35,7 +36,7 @@ return (
         className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
       >
         {data.map((item) => (
-          <div className='inline-block p-3'>
+          <Link href="/projects"><div className='inline-block p-3'>
           <Image
             key={item.id}
             className='cursor-pointer hover:scale-110 ease-in-out duration-300 shadow-lg rounded-xl'
@@ -44,7 +45,7 @@ return (
             height={100}
             alt='/'
           />
-          </div>
+          </div></Link>
         ))}
       </div>
       <div
