@@ -5,6 +5,9 @@ import Whyhmt from "./Whyhmt";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 import Contactus from "./Contactus";
+import Residential from "./Residential";
+import Institutions from "./Institutions";
+import Commercials from "./Commercials";
 
 export {
     Hero,
@@ -14,4 +17,7 @@ export {
     Testimonials,
     Footer,
     Contactus,
+    Institutions,
+    Residential,
+    Commercials,
 }
