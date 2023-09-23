@@ -6,7 +6,7 @@ export default function alwar_resi() {
   return (
     <>
       <div className="flex flex-col">
-        <div className=" bg-purple-500 mb-5 pt-5 pb-3 ">
+        <div className=" bg-white mb-5 pt-5 pb-3 ">
           <h1 className="text-6xl pt-5 font-semibold text-black text-center underline underline-offset-4">
             Dr. Alwar's Residence
           </h1>
