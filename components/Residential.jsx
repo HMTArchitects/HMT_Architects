@@ -22,7 +22,8 @@ export default function Residential() {
                     width={400}
                     height={300}
                     alt="/"
-                  /></Link>
+                  />
+                  <p className="pt-3 text-center font-semibold text-xl mt-2">{item.name}</p></Link>
                 </div>
               ))}
             </div>
