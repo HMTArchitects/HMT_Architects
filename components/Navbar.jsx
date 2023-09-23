@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "../assets/hmtLogo.jpg";
+import logo from "../assets/hmtLogo.png";
 import Link from "next/link";
 function NavBar(props) {
   return (
@@ -23,7 +23,7 @@ function NavBar(props) {
 
       <div className="hidden lg:grid grid-cols-3 justify-evenly px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white z-40">
         <Link href="/">
-          <Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" />
+          <Image src={logo} className="h-20 w-20" alt="HMT Architects Logo" />
         </Link>
         <div className="hidden lg:flex items-center border rounded-full shadow-md h-12 w-96">
           <Link href="/about">
