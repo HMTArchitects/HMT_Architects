@@ -4,7 +4,7 @@ export default function projects() {
     <>
     <div className="flex flex-col">
       <div className="bg-white mb-5 pt-5 pb-3">
-        <h1 className="text-6xl pt-5 font-semibold text-black text-center">
+        <h1 className="text-6xl pt-5 font-semibold text-black text-center underline">
           Portfolio
         </h1>
       </div>

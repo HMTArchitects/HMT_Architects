@@ -6,16 +6,19 @@ export const data = [
       id: 1,
       img: img1,
       link: '../projects/tagoreschool',
+      name: 'Tagore School',
     },
     {
       id: 2,
       img: img2,
-      link: '../projects/tagoreschool',
+      link: '../projects/meenakshividyashram',
+      name: 'Meenakshi Vishwa Vidyashram',
     },
     {
       id: 3,
       img: img3,
-      link: '../projects/tagoreschool',
+      link: '../projects/akshayahospital',
+      name: 'Akshaya Multispeciality Hospital',
     },
   ];
   
