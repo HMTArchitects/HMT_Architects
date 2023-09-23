@@ -13,21 +13,25 @@ export const data = [
       id: 1,
       img:img1,
       link: '../projects/senthilresidence',
+      name: "Mr. Senthil's"
     },
     {
       id: 2,
       img:img2,
       link: '../projects/hariresidence',
+      name: "Mr. Hari's"
     },
     {
       id: 3,
       img:img3,
       link: '../projects/saravananresidence',
+      name: "Mr. Saravanan's"
     },
     {
       id: 4,
       img:img4,
       link: '../projects/alwarresidence',
+      name: "Dr. Alwar's"
     },
     {
       id: 5,
@@ -53,6 +57,7 @@ export const data = [
       id: 9,
       img:img9,
       link: '../projects/tagoreschool',
+      name: " "
     },
   ];
   
