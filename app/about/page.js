@@ -5,6 +5,7 @@ import pic1 from "@/app/about/pic1.png"
 import pic2 from "@/app/about/pic2.png"
 import pic3 from "@/app/about/pic3.png"
 import pic4 from "@/app/about/pic4.png"
+import { Footer } from "@/components";
 import Link from "next/link";
 export default function About(props) {
   return (
@@ -76,6 +77,7 @@ export default function About(props) {
         </div>
       </div>
     </div>
+            <Footer />
     </>
   );
 }
