@@ -37,21 +37,25 @@ export const data = [
       id: 5,
       img:img5,
       link: '../projects/anandresidence',
+      name: "Mr. Anand's",
     },
     {
       id: 6,
       img:img6,
       link: '../projects/periyasamiresidence',
+      name: "Mr. Periyasami's"
     },
     {
       id: 7,
       img:img7,
       link: '../projects/sarathresidence',
+      name: "Mr. Sarath's"
     },
     {
       id: 8,
       img:img8,
       link: '../projects/sangeetharesidence',
+      name: "Mrs. Sangeetha's"
     },
     {
       id: 9,
