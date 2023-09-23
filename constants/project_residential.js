@@ -32,22 +32,22 @@ export const data = [
     {
       id: 5,
       img:img5,
-      link: '../projects/tagoreschool',
+      link: '../projects/anandresidence',
     },
     {
       id: 6,
       img:img6,
-      link: '../projects/tagoreschool',
+      link: '../projects/periyasamiresidence',
     },
     {
       id: 7,
       img:img7,
-      link: '../projects/tagoreschool',
+      link: '../projects/sarathresidence',
     },
     {
       id: 8,
       img:img8,
-      link: '../projects/tagoreschool',
+      link: '../projects/sangeetharesidence',
     },
     {
       id: 9,
