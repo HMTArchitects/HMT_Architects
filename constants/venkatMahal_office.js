@@ -1,4 +1,4 @@
-import img1 from 'assets/Office&Commercial/7.VenkatMahal/1-min.jpg'
+import img1 from 'assets/Office&Commercial/VenkatMahal/1-min.jpg'
 
 export const data = [
     {
