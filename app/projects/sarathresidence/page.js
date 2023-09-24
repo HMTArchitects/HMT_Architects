@@ -1,14 +1,14 @@
-"use client";
-import { data } from "../../../constants/sarath_resi.js";
+'use client'
+import { data } from "../../../constants/alwar_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
-export default function sarath_resi() {
+export default function alwar_resi() {
   return (
     <>
       <div className="flex flex-col">
         <div className=" bg-white mb-5 pt-5 pb-3 ">
           <h1 className="text-6xl pt-5 font-semibold text-black text-center underline underline-offset-4">
-            Mr. Sarath's Residence
+          Mr. Sarath's Residence
           </h1>
         </div>
         <div className="flex flex-row mt-10">
@@ -41,7 +41,7 @@ Sublimed elements have been used in the design of the villa
             </div>
           </div>
           <div className="w-2/3 c">
-            <div className="m-2 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 sm:p-7 justify-items-center mr-12 ml-8 p-1">
+            <div className="m-2 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 justify-items-center mr-12 ml-8 p-6">
               {data.map((item) => (
                 <div
                   className="inline-block pt-6 pl-6 h-full w-full"
@@ -64,3 +64,5 @@ Sublimed elements have been used in the design of the villa
     </>
   );
 }
+
+
