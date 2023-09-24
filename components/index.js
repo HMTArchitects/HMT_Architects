@@ -8,6 +8,7 @@ import Contactus from "./Contactus";
 import Residential from "./Residential";
 import Institutions from "./Institutions";
 import Commercials from "./Commercials";
+import GetInTouchBlock from "./GetInTouchBlock";
 
 export {
     Hero,
@@ -20,4 +21,5 @@ export {
     Institutions,
     Residential,
     Commercials,
+    GetInTouchBlock,
 }

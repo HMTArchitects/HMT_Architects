@@ -6,16 +6,16 @@ export default function senthil_resi() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="bg-white mb-5 pt-5 pb-3">
-          <h1 className="text-6xl pt-5 font-semibold text-black text-center underline underline-offset-4">
-          Mr. Saravanan's Residence
+        <div className=" bg-white md:mb-5 pt-5 pb-3 ">
+          <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center">
+           Mr. Saravanan's Residence
           </h1>
         </div>
-        <div className="flex flex-row mt-10">
-          <div className="w-1/3 mt-10 ml-20 flex flex-col">
+        <div className="flex md:flex-row flex-col mt-10">
+          <div className="md:w-1/3 mt-10 ml-20 flex flex-col">
             <div>
               <h1 className="text-2xl  font-semibold text-black">Scope</h1>
-              <p>Architecture, Structural, Interior, Electrical & Plumbing</p>
+              <p>Architecture, Structural, Interiors, Electrical & Plumbing</p>
             </div>
             <div>
               <h1 className="text-2xl pt-5 font-semibold text-black">Area</h1>
@@ -40,7 +40,7 @@ Traditional elements and contemporary backgrounds have evolved as part of the de
               </p>
             </div>
           </div>
-          <div className="w-2/3 c">
+          <div className="md:w-2/3 c">
             <div className="m-2 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 justify-items-center mr-12 ml-8 p-6">
               {data.map((item) => (
                 <div

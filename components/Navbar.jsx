@@ -21,23 +21,23 @@ function NavBar(props) {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       />
 
-      <div className="hidden lg:grid grid-cols-3 justify-evenly px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white z-40">
+      <div className="hidden lg:grid grid-cols-3 justify-evenly  px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white z-40">
         <Link href="/">
           <Image src={logo} className="h-20 w-20" alt="HMT Architects Logo" />
         </Link>
-        <div className="hidden lg:flex items-center border rounded-full shadow-md h-12 w-96">
-          <Link href="/about">
+        <div className="hidden lg:flex items-center justify-evenly border rounded-full shadow-md h-12 w-96">
+          <Link href="/">
             <button className="border-r-2 text-sm font-semibold text-gray-950 px-4 hover:text-yellow-600">
+              Home
+            </button>
+          </Link>
+          <Link href="/about">
+            <button className="border-r-2 text-sm font-semibold text-gray-950 px-4  hover:text-yellow-600">
               About Us
             </button>
           </Link>
-          <Link href="/testimonials">
-            <button className="border-r-2 text-sm font-semibold text-gray-950 px-4  hover:text-yellow-600">
-              Testimonials
-            </button>
-          </Link>
           <Link href="/projects">
-            <button className="text-sm font-medium text-gray-400 px-4  hover:text-yellow-600">
+            <button className="text-sm font-semibold text-black px-4  hover:text-yellow-600">
               See Projects
             </button>
             <i class="fa-regular fa-eye  bg-red-600 text-white rounded-full p-2 "></i>
