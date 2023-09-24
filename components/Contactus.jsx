@@ -32,8 +32,8 @@ export default function Contactus() {
   return (
     <div className="flex mx-auto">
     
-    <div className="m-8 border-2 p-8 shadow-lg border-white rounded-md mx-auto ">
-      <h1 className="text-center font-semibold text-2xl mt-2">Get In Touch</h1>
+    <div className="m-8 border-2 p-8  shadow-lg border-white rounded-md mx-auto ">
+      <h1 className="text-center font-semibold text-3xl mt-2">Get In Touch</h1>
       <form className="m-4" onSubmit={formSubmit}>
         <div className="mb-4">
         <label>Name</label>
