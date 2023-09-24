@@ -10,8 +10,8 @@ export const data = [
     {
       id: 1,
       img:img1,
-      link: '',
-      name: ''
+      link: '../projects/adyarinterior',
+      name: 'Adyar Interior'
     },
     {
       id: 2,
@@ -22,14 +22,14 @@ export const data = [
     {
       id: 3,
       img:img3,
-      link: '',
-      name: ''
+      link: '../projects/mbit',
+      name: 'MBit'
     },
     {
       id: 4,
       img:img4,
-      link: '',
-      name: ''
+      link: '../projects/evergreen',
+      name: 'Evergreen'
     },
     {
       id: 5,
@@ -46,8 +46,8 @@ export const data = [
     {
       id: 7,
       img:img7,
-      link: '',
-      name: ''
+      link: '../projects/venkatmahal',
+      name: 'Venkat Mahal'
     },
   ];
   
