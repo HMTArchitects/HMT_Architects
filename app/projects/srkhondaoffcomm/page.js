@@ -1,18 +1,18 @@
-"use client";
-import { data } from "../../../constants/srkhonda_offcomm.js";
+'use client'
+import { data } from "../../../constants/mbit_office.js";
 import { Footer } from "@/components";
 import Image from "next/image";
-export default function srkhonda_offcomm() {
+export default function mbit_office() {
   return (
     <>
       <div className="flex flex-col">
-        <div className=" bg-white mb-5 pt-5 pb-3 ">
-          <h1 className="text-6xl pt-5 font-semibold text-black text-center ">
-            SRK Honda 
+        <div className=" bg-white md:mb-5 pt-5 pb-3 ">
+          <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center">
+            SRK Honda
           </h1>
         </div>
-        <div className="flex flex-row mt-10">
-          <div className="w-1/3 mt-10 ml-20 flex flex-col">
+        <div className="flex md:flex-row flex-col mt-10">
+          <div className="md:w-1/3 mt-10 ml-20 flex flex-col">
             <div>
               <h1 className="text-2xl  font-semibold text-black">Scope</h1>
               <p>Architecture & Interiors</p>
@@ -32,12 +32,12 @@ export default function srkhonda_offcomm() {
                 Description
               </h1>
               <p>
-              The interiors for a Honda showroom has been done based on the colour concepts of the Honda company.
+                The interiors for a Honda showroom has been done based on the colour concepts of the Honda company.
               </p>
             </div>
           </div>
-          <div className="w-2/3 c">
-            <div className="m-2 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 sm:p-7 justify-items-center mr-12 ml-8 p-1">
+          <div className="md:w-2/3 c">
+            <div className="m-2 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 justify-items-center mr-12 ml-8 p-6">
               {data.map((item) => (
                 <div
                   className="inline-block pt-6 pl-6 h-full w-full"
@@ -60,3 +60,4 @@ export default function srkhonda_offcomm() {
     </>
   );
 }
+
