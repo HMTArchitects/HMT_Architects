@@ -20,9 +20,9 @@ const slideRight = () => {
 };
 
 return (
-  <div className=' pb-10 bg-gray-100'>
+  <div className=' pb-10 bg-white'>
     <div className='text-white ml-12'>
-      <h1 className='text-4xl text-black font-ubuntu text-center mb-5'>Project Gallery!</h1>
+      <h1 className='text-4xl text-black font-semibold text-center mb-5'>PROJECT GALLERY</h1>
     </div>
     <div className='flex items-center'>
       <div
