@@ -1,8 +1,8 @@
-import img1 from 'assets/Office&Commercial/6.Office-Evergreen/1-min.jpg'
-import img2 from 'assets/Office&Commercial/6.Office-Evergreen/2-min.jpg'
-import img3 from 'assets/Office&Commercial/6.Office-Evergreen/3-min.jpg'
-import img4 from 'assets/Office&Commercial/6.Office-Evergreen/4-min.jpg'
-import img5 from 'assets/Office&Commercial/6.Office-Evergreen/5-min.jpg'
+import img1 from 'assets/Office&Commercial/Office-Evergreen/1-min.jpg'
+import img2 from 'assets/Office&Commercial/Office-Evergreen/2-min.jpg'
+import img3 from 'assets/Office&Commercial/Office-Evergreen/3-min.jpg'
+import img4 from 'assets/Office&Commercial/Office-Evergreen/4-min.jpg'
+import img5 from 'assets/Office&Commercial/Office-Evergreen/5-min.jpg'
 
 export const data = [
     {
