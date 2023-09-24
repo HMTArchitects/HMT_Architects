@@ -14,7 +14,7 @@ const GetInTouchBlock = () => {
             alt='contact'
             />
         </div>
-        <div className='mr-32'>
+        <div className='md:mr-32'>
       <Contactus/>
 
         </div>
