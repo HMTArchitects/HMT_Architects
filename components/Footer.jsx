@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import xlogo from "assets/x-social-media-logo-icon.svg";
+import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+const Footer = (props) => {
   const [footerNav, setFooterNav] = useState(false); // Use a different state variable for the footer navigation
 
   return (
@@ -13,7 +15,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center justify-between py-3 text-gray-950 md:py-5 md:block">
               <div class="col-lg-4 text-lg-start text-sm">
-              ©<strong>HMT_Architects</strong> &nbsp; All Rights Reserved
+                ©<strong>HMT_Architects</strong> &nbsp; All Rights Reserved
               </div>
             </div>
           </div>
@@ -73,28 +75,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener"
-                    className="social-media__link"
-                    aria-label="Follow us on Twitter"
-                  >
-                    <svg
-                      focusable="false"
-                      width="30"
-                      height="32"
-                      className="icon icon--twitter"
-                      viewBox="0 0 28 28"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M21 6.774c-.663.301-1.375.504-2.122.596a3.781 3.781 0 001.625-2.093 7.3 7.3 0 01-2.345.918A3.648 3.648 0 0015.462 5c-2.04 0-3.693 1.694-3.693 3.783 0 .297.032.586.095.862-3.069-.157-5.79-1.663-7.611-3.952-.318.558-.5 1.209-.5 1.902 0 1.313.652 2.47 1.643 3.148a3.608 3.608 0 01-1.674-.472v.047c0 1.833 1.274 3.363 2.962 3.71a3.601 3.601 0 01-1.667.065c.47 1.504 1.834 2.597 3.45 2.628A7.297 7.297 0 013 18.288a10.27 10.27 0 005.661 1.7c6.792 0 10.507-5.766 10.507-10.766 0-.164-.004-.327-.01-.49A7.637 7.637 0 0021 6.774 0z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </a>
+                  <Link href="https://twitter.com/"><Image
+                    src={xlogo}
+                    className="h-6 w-6"
+                    alt="X Social Media Logo"
+                  /></Link>
+                  
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 hover:text-purple-700 md:border-b-0 border-purple-900 md:hover:text-purple-600 md:hover-bg-transparent">
                   <a
@@ -104,7 +90,7 @@ const Footer = () => {
                     className="social-media__link"
                     aria-label="Connect with us on LinkedIn"
                   >
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-linkedin w-6 h-6"></i>
                   </a>
                 </li>
               </ul>
