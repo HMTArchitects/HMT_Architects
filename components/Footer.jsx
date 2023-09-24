@@ -15,7 +15,7 @@ const Footer = (props) => {
           <div>
             <div className="flex items-center justify-between py-3 text-gray-950 md:py-5 md:block">
               <div class="col-lg-4 text-lg-start text-sm">
-                ©<strong>HMT_Architects</strong> &nbsp; All Rights Reserved
+                © <strong>HMT_Architects</strong> &nbsp; All Rights Reserved
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Footer = (props) => {
               <ul className=" flex items-center justify-between h-screen md:h-auto items-right md:flex">
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
                   <a
-                    href="https://instagram.com/"
+                    href="https://www.instagram.com/hmt_architects/"
                     target="_blank"
                     rel="noopener"
                     className="social-media__link"
@@ -52,7 +52,7 @@ const Footer = (props) => {
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/HMTArch/"
                     target="_blank"
                     rel="noopener"
                     class="social-media__link"
