@@ -12,7 +12,7 @@ export default function Commercials() {
             </h1>
           </div>
           <div>
-            <div className="m-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-2 pl-6 pr-6">
+            <div className="m-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-2">
               {data.map((item) => (
                 <div className="inline-block p-5 w-full h-full" key={item.id}>
                   <Link href={ item.link }> 
