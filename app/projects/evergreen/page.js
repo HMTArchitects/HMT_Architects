@@ -7,7 +7,7 @@ export default function evergreen_office() {
     <>
       <div className="flex flex-col">
         <div className=" bg-white md:mb-5 pt-5 pb-3 ">
-          <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center underline underline-offset-4">
+          <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center">
             Evergreen
           </h1>
         </div>

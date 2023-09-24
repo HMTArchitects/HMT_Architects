@@ -7,7 +7,7 @@ export default function akshayahospital() {
     <>
       <div className="flex flex-col">
         <div className="bg-white mb-5 pt-5 pb-3">
-          <h1 className="text-6xl pt-5 font-semibold text-black text-center underline underline-offset-4">
+          <h1 className="text-6xl pt-5 font-semibold text-black text-center">
             Akshaya Multispeciality Hospital
           </h1>
         </div>
