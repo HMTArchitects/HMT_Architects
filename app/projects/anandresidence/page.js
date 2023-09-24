@@ -2,7 +2,7 @@
 import { data } from "../../../constants/alwar_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
-export default function alwar_resi() {
+export default function anand_resi() {
   return (
     <>
       <div className="flex flex-col">
