@@ -37,10 +37,12 @@ function NavBar(props) {
             </button>
           </Link>
           <Link href="/projects">
+            <div>
             <button className="text-sm font-semibold text-black px-4  hover:text-yellow-600">
               See Projects
             </button>
             <i class="fa-regular fa-eye  bg-red-600 text-white rounded-full p-2 "></i>
+            </div>
           </Link>
         </div>
         <div className="hidden xl:flex justify-end items-center gap-6">
