@@ -1,5 +1,5 @@
 'use client'
-import { data } from "../../../constants/alwar_resi.js";
+import { data } from "../../../constants/anand_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
 export default function anand_resi() {
