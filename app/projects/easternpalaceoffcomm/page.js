@@ -1,8 +1,8 @@
 'use client'
-import { data } from "../../../constants/mbit_office.js";
+import { data } from "../../../constants/epalace_offcomm.js";
 import { Footer } from "@/components";
 import Image from "next/image";
-export default function mbit_office() {
+export default function epalace_offcomm() {
   return (
     <>
       <div className="flex flex-col">
