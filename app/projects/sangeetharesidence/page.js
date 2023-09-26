@@ -1,8 +1,8 @@
 'use client'
-import { data } from "../../../constants/alwar_resi.js";
+import { data } from "../../../constants/sangeetha_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
-export default function alwar_resi() {
+export default function sangeetha_resi() {
   return (
     <>
       <div className="flex flex-col">

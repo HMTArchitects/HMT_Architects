@@ -1,8 +1,8 @@
 'use client'
-import { data } from "../../../constants/mbit_office.js";
+import { data } from "../../../constants/ashok_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
-export default function mbit_office() {
+export default function ashok_resi() {
   return (
     <>
       <div className="flex flex-col">
