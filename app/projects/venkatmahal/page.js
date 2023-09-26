@@ -27,7 +27,7 @@ export default function venkatMahal_office() {
               </h1>
               <p>Kuttalam</p>
             </div>
-            <div>
+            <div className="mb-10">
               <h1 className="text-2xl pt-5 font-semibold text-black">
                 Description
               </h1>
