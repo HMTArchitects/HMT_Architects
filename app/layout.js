@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
+     <meta http-equiv="Content-Security-Policy" content="script-src 'none'"></meta>
       <body> 
         <Navbar/>
         <main className={font.className} >
