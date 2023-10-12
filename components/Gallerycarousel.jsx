@@ -43,7 +43,7 @@ return (
             src= {item.img}
             width={380}
             height={100}
-            alt='/'
+            alt='Projects'
           />
           </div></Link>
         ))}
