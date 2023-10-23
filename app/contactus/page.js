@@ -43,7 +43,7 @@ export default function Contact() {
                         <div className="flex items-center">
                            
                         <a href="/projects">
-                            <p className="text-black pt-2  tracking-wide underline">View Our Projects</p>
+                            <p className="text-black pt-2  tracking-wide underline hover:text-blue-500">View Our Projects</p>
                         </a>
                         </div>
                     </div>

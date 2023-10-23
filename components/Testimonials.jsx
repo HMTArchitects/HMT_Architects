@@ -72,9 +72,9 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="py-5 pb-md-6 pb-lg-7 bg-gray-100 mt-[2rem] -z-50">
+    <div className="py-5 pb-md-6 pb-lg-7 bg-white mt-[8rem] -z-50">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl text-center text-black mb-6 font-se">What our clients are saying..</h1>
+        <h1 className="text-3xl font-semibold text-center text-black mb-6 font-se">WHAT OUR CLIENTS ARE SAYING..</h1>
         <div className="overflow-x-auto scrollbar-hide">
           <div className="flex flex-wrap -mx-2 justify-center">
             {visibleTestimonials.map((testimonial, index) => (
