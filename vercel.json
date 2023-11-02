@@ -2,19 +2,23 @@
   "rewrites": [
     {
       "source": "/index.html",
-      "destination": "/"
+      "destination": "/",
+      "permanent": true"
     },
     {
       "source": "/about.html",
-      "destination": "/about"
+      "destination": "/about",
+      "permanent": true"
     },
     {
       "source": "/portfolio.html",
-      "destination": "/projects"
+      "destination": "/projects",
+      "permanent": true"
     },
     {
       "source": "/contact.html",
-      "destination": "/contactus"
+      "destination": "/contactus",
+      "permanent": true"
     }
   ]
 }
