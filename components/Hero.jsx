@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Typed from "react-typed";
 import Link from "next/link";
-import Slideshow from "./slideshow";
+import Slideshow from "./Slideshow";
 const Hero = () => {
   return (
     <div className="bg-white">

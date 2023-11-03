@@ -9,7 +9,7 @@ import Residential from "./Residential";
 import Institutions from "./Institutions";
 import Commercials from "./Commercials";
 import GetInTouchBlock from "./GetInTouchBlock";
-import Slideshow from "./slideshow";
+import Slideshow from "./Slideshow";
 
 export {
     Hero,
