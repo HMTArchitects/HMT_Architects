@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
-import award1 from "assets/AwardPics/award1.jpeg";
-import award2 from "assets/AwardPics/award2.jpeg";
+import award1 from "assets/AwardPics/award1.jpg";
+import award2 from "assets/AwardPics/award2.jpg";
 import akshaya1h from "assets/Website - Update/Akshaya Hospital/1 H.jpg";
 import srinivasan8 from "assets/Website - Update/Srinivasan, Karanodai/8.jpg";
 import farmhouse3 from "assets/Website - Update/Farm House, Devaneri/3.jpg";

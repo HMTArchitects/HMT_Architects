@@ -35,9 +35,11 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="hidden md:flex  md:pt-20 lg:items-center lg:pt-0">
-          <Slideshow/>
-        </div>
+        <Link href="/projects">
+          <div className="hidden md:flex  md:pt-20 lg:items-center lg:pt-0">
+            <Slideshow />
+          </div>
+        </Link>
       </div>
     </div>
   );
