@@ -61,6 +61,7 @@ const GetInTouchBlock = () => {
               layout="fill"
               objectFit="cover"
               className="rounded-sm"
+              priority
             />
           </div>
           <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">

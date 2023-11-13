@@ -24,6 +24,7 @@ const Slideshow = () => {
               alt={`Image ${index}`}
               width={400}
               height={300}
+              priority
             />
           ))}
         </MarqueeGroup>
@@ -35,6 +36,7 @@ const Slideshow = () => {
               alt={`Image ${index}`}
               width={400}
               height={300}
+              priority
             />
           ))}
         </MarqueeGroup> 
