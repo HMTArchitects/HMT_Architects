@@ -52,7 +52,7 @@ function NavBar(props) {
           <div className=" flex items-center h-14 w -10">
             <i className="fa-solid fa-award  bg-yellow-400 text-gray-950 rounded-full p-2"></i>
           </div>
-          <Link href="contactus">
+          <Link href="/contactus">
             <div className="flex hover:bg-yellow-500 justify-evenly items-center gap-2 rounded-full shadow-md border h-10 w-32">
               <button className="text-sm font-semibold text-gray-900">
                 Contact Us
@@ -88,7 +88,7 @@ function NavBar(props) {
         </div>
         </div>
         <div className="grid justify-items-end lg:hidden">
-          <Link href="contactus">
+          <Link href="/contactus">
           <div className="flex justify-evenly items-center  rounded-full shadow-md border h-10 w-10 px-18 hover:bg-yellow-500 xl:hidden">
             <i className="fa-solid fa-phone-volume text-gray-950"></i>
           </div>
