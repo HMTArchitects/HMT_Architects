@@ -69,7 +69,11 @@ export default function meenakshividyashram() {
                     width={300}
                     height={200}
                     alt="/"
-                    onClick={() => showModal(item.img)} //
+                    onClick={() => {
+                  if (window.innerWidth >= 750) {
+                    showModal(item.img);
+                  }
+                }} 
                   />
                 </div>
               ))}

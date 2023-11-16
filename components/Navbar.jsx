@@ -23,7 +23,7 @@ function NavBar(props) {
 
       <div className="hidden lg:grid grid-cols-3 justify-evenly  px-14 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white z-40">
         <Link href="/">
-          <Image src={logo} className="h-20 w-20" alt="HMT Architects Logo" />
+          <Image src={logo} className="h-20 w-20" alt="HMT Architects Logo" priority/>
         </Link>
         <div className="hidden lg:flex items-center justify-evenly border rounded-full shadow-md h-12 w-96">
           <Link href="/">
@@ -52,7 +52,7 @@ function NavBar(props) {
           <div className=" flex items-center h-14 w -10">
             <i className="fa-solid fa-award  bg-yellow-400 text-gray-950 rounded-full p-2"></i>
           </div>
-          <Link href="contactus">
+          <Link href="/contactus">
             <div className="flex hover:bg-yellow-500 justify-evenly items-center gap-2 rounded-full shadow-md border h-10 w-32">
               <button className="text-sm font-semibold text-gray-900">
                 Contact Us
@@ -88,7 +88,7 @@ function NavBar(props) {
         </div>
         </div>
         <div className="grid justify-items-end lg:hidden">
-          <Link href="contactus">
+          <Link href="/contactus">
           <div className="flex justify-evenly items-center  rounded-full shadow-md border h-10 w-10 px-18 hover:bg-yellow-500 xl:hidden">
             <i className="fa-solid fa-phone-volume text-gray-950"></i>
           </div>

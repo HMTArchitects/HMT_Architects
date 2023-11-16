@@ -2,8 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import Typed from "react-typed";
-import home2 from "../assets/pngegg2.png";
 import Link from "next/link";
+import Slideshow from "./Slideshow";
 const Hero = () => {
   return (
     <div className="bg-white">
@@ -35,9 +35,11 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="hidden md:flex  md:pt-20 lg:items-center lg:pt-0">
-          <Image src={home2} width={800} height={800} alt="hmt" loading="lazy"/>
-        </div>
+        <Link href="/projects">
+          <div className="hidden md:flex  md:pt-20 lg:items-center lg:pt-0">
+            <Slideshow />
+          </div>
+        </Link>
       </div>
     </div>
   );
