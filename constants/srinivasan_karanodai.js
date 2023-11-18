@@ -7,7 +7,7 @@ import img6 from 'assets/Residential/Srinivasan,Karanodai/6-min.jpg'
 import img7 from 'assets/Residential/Srinivasan,Karanodai/7-min.jpg'
 import img8 from 'assets/Residential/Srinivasan,Karanodai/8-min.jpg'
 import img9 from 'assets/Residential/Srinivasan,Karanodai/9-min.jpg'
-import img10 from 'assets/Residential/Srinivasan,Karanodai/10.jpg'
+import img10 from 'assets/Residential/Srinivasan,Karanodai/10-minha.jpg'
 
 
 export const data = [
