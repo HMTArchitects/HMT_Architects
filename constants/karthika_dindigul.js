@@ -9,7 +9,7 @@ import img8 from 'assets/Residential/Karthika,Dindigul/8-min.jpg'
 import img9 from 'assets/Residential/Karthika,Dindigul/9-min.jpg'
 import img10 from 'assets/Residential/Karthika,Dindigul/10-min.jpg'
 import img11 from 'assets/Residential/Karthika,Dindigul/11-min.jpg'
-import img12 from 'assets/Residential/Karthika,Dindigul/12-min.jpg'
+import img12 from 'assets/Residential/Karthika,Dindigul/12.jpg'
 export const data = [
     {
       id: 1,
