@@ -1,7 +1,7 @@
-import img1 from 'assets/Residential/Farm House, Devaneri/1-min.jpg'
-import img2 from 'assets/Residential/Farm House, Devaneri/2-min.jpg'
-import img3 from 'assets/Residential/Farm House, Devaneri/3-min.jpg'
-import img4 from 'assets/Residential/Farm House, Devaneri/4-min.jpg'
+import img1 from 'assets/Residential/FarmHouse,Devaneri/1-min.jpg'
+import img2 from 'assets/Residential/FarmHouse,Devaneri/2-min.jpg'
+import img3 from 'assets/Residential/FarmHouse,Devaneri/3-min.jpg'
+import img4 from 'assets/Residential/FarmHouse,Devaneri/4-min.jpg'
 
 export const data = [
     {

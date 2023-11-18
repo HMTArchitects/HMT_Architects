@@ -2,19 +2,34 @@
 import { data } from "../../../constants/senthil_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
+import React, { useState } from "react";
+import logo from "../../../assets/cancel.png";
+
 export default function senthil_resi() {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalSrc, setModalSrc] = useState("");
+
+  const showModal = (src) => {
+    setModalVisible(true);
+    setModalSrc(src);
+  };
+
+  const closeModal = () => {
+    setModalVisible(false);
+  };
+
   return (
     <>
       <div className="flex flex-col">
-        <div className=" bg-white md:mb-5 pt-5 pb-3 ">
+        <div className="bg-white md:mb-5 pt-5 pb-3">
           <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center">
-            Mr. Senthil's Residence
+          Mr. Senthil's Residence 
           </h1>
         </div>
         <div className="flex md:flex-row flex-col mt-10">
           <div className="md:w-1/3 mt-10 ml-20 flex flex-col">
             <div>
-              <h1 className="text-2xl  font-semibold text-black">Scope</h1>
+              <h1 className="text-2xl font-semibold text-black">Scope</h1>
               <p>Architecture, Structural, Electrical, Plumbing & Interiors</p>
             </div>
             <div>
@@ -32,11 +47,7 @@ export default function senthil_resi() {
                 Description
               </h1>
               <p>
-                This residence is designed for an elite businessman.
-
-                It has all contemporary details with a minimalistic approach to design.
-
-                It is a classic example of simplicity and elegance.
+              This residence is designed for an elite businessman.It has all contemporary details with a minimalistic approach to design.It is a classic example of simplicity and elegance.
               </p>
             </div>
           </div>
@@ -53,9 +64,42 @@ export default function senthil_resi() {
                     width={300}
                     height={200}
                     alt="/"
+                    onClick={() => {
+                  if (window.innerWidth >= 750) {
+                    showModal(item.img);
+                  }
+                }} 
                   />
                 </div>
               ))}
+            </div>
+
+            {/* Modal */}
+            <div
+              className={`${
+                modalVisible ? "" : "hidden"
+              } fixed top-0 left-0 z-80 w-screen h-screen bg-black/80 grid justify-center items-center`}
+            >
+              <div className="flex flex-col items-center relative mt-5">
+                <Image
+                  id="modal-img"
+                  className="max-w-[800px] max-h-[400px] object-cover"
+                  src={modalSrc}
+                  alt="/"
+                />
+                <Image
+                  className="w-20 h-15 cursor-pointer px-3 py-1 rounded-full absolute top-0 right-0"
+                  onClick={closeModal}
+                  style={{ marginTop: "1rem" }}
+                  src={logo}
+                  alt="/"
+                />
+                <div className="pt-3 pb-3">
+                  <h1 className="text-xl  text-white text-center">
+                  Mr. Senthil's Residence
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -64,4 +108,3 @@ export default function senthil_resi() {
     </>
   );
 }
-
