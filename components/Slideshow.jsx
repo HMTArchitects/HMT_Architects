@@ -5,13 +5,10 @@ import award1 from "assets/AwardPics/award1.jpg";
 import award2 from "assets/AwardPics/award2.jpg";
 import akshaya1h from "assets/Website - Update/Akshaya Hospital/1 H.jpg";
 import srinivasan8 from "assets/Website - Update/Srinivasan, Karanodai/8.jpg";
-import farmhouse3 from "assets/Website - Update/Farm House, Devaneri/3.jpg";
-import siva7 from "assets/Website - Update/Siva, Karur/7.jpg";
-import karthika2 from "assets/Website - Update/Karthika, Dindigul/2.jpg";
 import NextImage from "next/image"; // Use an alias like NextImage
 
 const Slideshow = () => {
-  const row1 = [award1, award2, akshaya1h,srinivasan8,farmhouse3,siva7,karthika2];
+  const row1 = [award1, award2, akshaya1h,srinivasan8];
 
   return (
     <AppContainer>
