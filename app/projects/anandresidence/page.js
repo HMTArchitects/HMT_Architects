@@ -98,7 +98,7 @@ Wood is used as the main element in the design along with marble.
                 />
                 <div className="pt-3 pb-3">
                   <h1 className="text-xl  text-white text-center">
-                    Meenakshi Vishwa Vidyashram
+                    Anand Residence
                   </h1>
                 </div>
               </div>
