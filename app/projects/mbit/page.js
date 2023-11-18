@@ -84,7 +84,7 @@ export default function mbit_office() {
               <div className="flex flex-col items-center relative mt-5">
                 <Image
                   id="modal-img"
-                  className="max-w-[800px] max-h-[600px] object-cover"
+                  className="max-w-[800px] max-h-[400px] object-cover"
                   src={modalSrc}
                   alt="/"
                 />

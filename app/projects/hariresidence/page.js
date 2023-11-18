@@ -2,22 +2,35 @@
 import { data } from "../../../constants/hari_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
+import React, { useState } from "react";
+import logo from "../../../assets/cancel.png";
+
 export default function hari_resi() {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalSrc, setModalSrc] = useState("");
+
+  const showModal = (src) => {
+    setModalVisible(true);
+    setModalSrc(src);
+  };
+
+  const closeModal = () => {
+    setModalVisible(false);
+  };
+
   return (
     <>
       <div className="flex flex-col">
-        <div className=" bg-white md:mb-5 pt-5 pb-3 ">
+        <div className="bg-white md:mb-5 pt-5 pb-3">
           <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center">
-            Mr. Hari's Residence
+          Mr. Hari's Residence 
           </h1>
         </div>
         <div className="flex md:flex-row flex-col mt-10">
           <div className="md:w-1/3 mt-10 ml-20 flex flex-col">
             <div>
-              <h1 className="text-2xl  font-semibold text-black">Scope</h1>
-              <p>Architecture, Structural, Interiors, Electrical & Plumbing
-
-              </p>
+              <h1 className="text-2xl font-semibold text-black">Scope</h1>
+              <p>Architecture, Structural, Interiors, Electrical & Plumbing</p>
             </div>
             <div>
               <h1 className="text-2xl pt-5 font-semibold text-black">Area</h1>
@@ -34,11 +47,7 @@ export default function hari_resi() {
                 Description
               </h1>
               <p>
-                The residence is located in Villivakkam, Chennai.
-
-                It is a modern contemporary villa and has been designed in the most contemporary way.
-
-                Glass, Wood, and CNC elements have been used in the design.
+              The residence is located in Villivakkam, Chennai. It is a modern contemporary villa and has been designed in the most contemporary way. Glass, Wood, and CNC elements have been used in the design.
               </p>
             </div>
           </div>
@@ -55,9 +64,42 @@ export default function hari_resi() {
                     width={300}
                     height={200}
                     alt="/"
+                    onClick={() => {
+                  if (window.innerWidth >= 750) {
+                    showModal(item.img);
+                  }
+                }} 
                   />
                 </div>
               ))}
+            </div>
+
+            {/* Modal */}
+            <div
+              className={`${
+                modalVisible ? "" : "hidden"
+              } fixed top-0 left-0 z-80 w-screen h-screen bg-black/80 grid justify-center items-center`}
+            >
+              <div className="flex flex-col items-center relative mt-5">
+                <Image
+                  id="modal-img"
+                  className="max-w-[800px] max-h-[400px] object-cover"
+                  src={modalSrc}
+                  alt="/"
+                />
+                <Image
+                  className="w-20 h-15 cursor-pointer px-3 py-1 rounded-full absolute top-0 right-0"
+                  onClick={closeModal}
+                  style={{ marginTop: "1rem" }}
+                  src={logo}
+                  alt="/"
+                />
+                <div className="pt-3 pb-3">
+                  <h1 className="text-xl  text-white text-center">
+                  Mr. Hari's Residence
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
