@@ -1,5 +1,5 @@
-import img1 from 'assets/Residential/Mohan,Kilpauk/1-min.jpg'
-import img2 from 'assets/Residential/Mohan,Kilpauk/2-min.jpg'
+import img1 from 'assets/Residential/Mohan,Kilpauk/1-min.jpeg'
+import img2 from 'assets/Residential/Mohan,Kilpauk/2-min.jpeg'
 
 export const data = [
     {
