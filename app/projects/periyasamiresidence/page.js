@@ -96,7 +96,7 @@ A wide range of materials like marble and wood have been used along with the for
                 />
                 <div className="pt-3 pb-3">
                   <h1 className="text-xl  text-white text-center">
-                    Periyasami Residence
+                    Mr. Periyasami's Residence
                   </h1>
                 </div>
               </div>

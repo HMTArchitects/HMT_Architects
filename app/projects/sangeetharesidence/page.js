@@ -98,7 +98,7 @@ All bedrooms are designed in a Contemporary style.
                 />
                 <div className="pt-3 pb-3">
                   <h1 className="text-xl  text-white text-center">
-                    Anand Residence
+                    Mrs. Sangeetha's Residence
                   </h1>
                 </div>
               </div>

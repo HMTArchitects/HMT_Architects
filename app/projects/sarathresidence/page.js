@@ -98,7 +98,7 @@ Sublimed elements have been used in the design of the villa
                 />
                 <div className="pt-3 pb-3">
                   <h1 className="text-xl  text-white text-center">
-                    Sarath Residence
+                    Mr. Sarath's Residence
                   </h1>
                 </div>
               </div>
