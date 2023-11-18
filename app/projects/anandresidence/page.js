@@ -2,7 +2,21 @@
 import { data } from "../../../constants/anand_resi.js";
 import { Footer } from "@/components";
 import Image from "next/image";
+import React, { useState } from "react";
+import logo from "../../../assets/cancel.png";
+
 export default function anand_resi() {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalSrc, setModalSrc] = useState("");
+
+  const showModal = (src) => {
+    setModalVisible(true);
+    setModalSrc(src);
+  };
+
+  const closeModal = () => {
+    setModalVisible(false);
+  };
   return (
     <>
       <div className="flex flex-col">
@@ -53,9 +67,41 @@ Wood is used as the main element in the design along with marble.
                     width={300}
                     height={200}
                     alt="/"
+                    onClick={() => {
+                      if (window.innerWidth >= 750) {
+                        showModal(item.img);
+                      }
+                    }} 
                   />
                 </div>
               ))}
+            </div>
+            {/* Modal */}
+            <div
+              className={`${
+                modalVisible ? "" : "hidden"
+              } fixed top-0 left-0 z-80 w-screen h-screen bg-black/80 grid justify-center items-center`}
+            >
+              <div className="flex flex-col items-center relative mt-5">
+                <Image
+                  id="modal-img"
+                  className="max-w-[800px] max-h-[600px] object-cover"
+                  src={modalSrc}
+                  alt="/"
+                />
+                <Image
+                  className="w-20 h-15 cursor-pointer px-3 py-1 rounded-full absolute top-0 right-0"
+                  onClick={closeModal}
+                  style={{ marginTop: "1rem" }}
+                  src={logo}
+                  alt="/"
+                />
+                <div className="pt-3 pb-3">
+                  <h1 className="text-xl  text-white text-center">
+                    Mr. Anand's Residence
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
