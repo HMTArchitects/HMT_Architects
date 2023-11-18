@@ -19,6 +19,16 @@
       "source": "/contact.html",
       "destination": "/contactus",
       "permanent": true
+    },
+    {
+      "source": "/tagoreSchool.html",
+      "destination": "/projects/tagoreschool",
+      "permanent": true
+    },
+    {
+      "source": "/DrAlwars.html",
+      "destination": "/projects/alwarresidence",
+      "permanent": true
     }
   ]
 }
