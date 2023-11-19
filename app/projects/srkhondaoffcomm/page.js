@@ -4,6 +4,7 @@ import { Footer } from "@/components";
 import Image from "next/image";
 import React, { useState } from "react";
 import logo from "../../../assets/cancel.png";
+import Link from "next/link.js";
 export default function srkhonda_offcomm() {
   const [modalVisible, setModalVisible] = useState(false);
   const [modalSrc, setModalSrc] = useState("");
@@ -80,7 +81,7 @@ export default function srkhonda_offcomm() {
               <div className="flex flex-col items-center relative mt-5">
                 <Image
                   id="modal-img"
-                  className="max-w-[800px] max-h-[600px] object-cover"
+                  className="max-w-[800px] max-h-[400px] object-cover"
                   src={modalSrc}
                   alt="/"
                 />
@@ -103,8 +104,8 @@ export default function srkhonda_offcomm() {
       </div>
 
       <div class="flex items-center justify-center py-8">
-        <a
-          href=""
+        <Link
+          href="../projects/uthifactoryoffcomm"
           class="relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-gray-600 border-2 border-gray-600 rounded-full hover:text-white group hover:bg-white"
         >
           <span class="absolute left-0 block w-full h-0 transition-all bg-gray-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -125,33 +126,7 @@ export default function srkhonda_offcomm() {
             </svg>
           </span>
           <span class="relative">Check out the next project</span>
-        </a>
-      </div>
-
-      <div class="flex items-center justify-center py-8">
-        <a
-          href=""
-          class="relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-gray-600 border-2 border-gray-600 rounded-full hover:text-white group hover:bg-white"
-        >
-          <span class="absolute left-0 block w-full h-0 transition-all bg-gray-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
-          <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
-            <svg
-              class="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M14 5l7 7m0 0l-7 7m7-7H3"
-              ></path>
-            </svg>
-          </span>
-          <span class="relative">Check out the next project</span>
-        </a>
+        </Link>
       </div>
 
       <Footer />
