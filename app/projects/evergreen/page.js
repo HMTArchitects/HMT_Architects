@@ -4,6 +4,7 @@ import { Footer } from "@/components";
 import Image from "next/image";
 import React, { useState } from "react";
 import logo from "../../../assets/cancel.png";
+import Link from "next/link.js";
 export default function evergreen_office() {
   const [modalVisible, setModalVisible] = useState(false);
   const [modalSrc, setModalSrc] = useState("");
@@ -83,7 +84,7 @@ export default function evergreen_office() {
               <div className="flex flex-col items-center relative mt-5">
                 <Image
                   id="modal-img"
-                  className="max-w-[800px] max-h-[600px] object-cover"
+                  className="max-w-[800px] max-h-[400px] object-cover"
                   src={modalSrc}
                   alt="/"
                 />
@@ -106,8 +107,8 @@ export default function evergreen_office() {
       </div>
 
       <div class="flex items-center justify-center py-8">
-        <a
-          href=""
+        <Link
+          href="../projects/srkhondaoffcomm"
           class="relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-gray-600 border-2 border-gray-600 rounded-full hover:text-white group hover:bg-white"
         >
           <span class="absolute left-0 block w-full h-0 transition-all bg-gray-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -128,7 +129,7 @@ export default function evergreen_office() {
             </svg>
           </span>
           <span class="relative">Check out the next project</span>
-        </a>
+        </Link>
       </div>
 
       <Footer />

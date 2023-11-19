@@ -4,6 +4,7 @@ import { Footer } from "@/components";
 import Image from "next/image";
 import React, { useState } from "react";
 import logo from "../../../assets/cancel.png";
+import Link from "next/link.js";
 
 export default function muruganandham_karur() {
   const [modalVisible, setModalVisible] = useState(false);
@@ -104,8 +105,8 @@ export default function muruganandham_karur() {
       </div>
 
       <div class="flex items-center justify-center py-8">
-        <a
-          href=""
+        <Link
+          href="../projects/karthikadindigul"
           class="relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-gray-600 border-2 border-gray-600 rounded-full hover:text-white group hover:bg-white"
         >
           <span class="absolute left-0 block w-full h-0 transition-all bg-gray-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -126,7 +127,7 @@ export default function muruganandham_karur() {
             </svg>
           </span>
           <span class="relative">Check out the next project</span>
-        </a>
+        </Link>
       </div>
 
       <Footer />
