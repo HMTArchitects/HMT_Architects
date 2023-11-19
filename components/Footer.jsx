@@ -75,12 +75,13 @@ const Footer = (props) => {
                   </a>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="https://twitter.com/"><Image
-                    src={xlogo}
-                    className="h-6 w-6"
-                    alt="X Social Media Logo"
-                  /></Link>
-                  
+                  <Link href="https://twitter.com/">
+                    <Image
+                      src={xlogo}
+                      className="h-6 w-6"
+                      alt="X Social Media Logo"
+                    />
+                  </Link>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 hover:text-purple-700 md:border-b-0 border-purple-900 md:hover:text-purple-600 md:hover-bg-transparent">
                   <a
@@ -93,6 +94,11 @@ const Footer = (props) => {
                     <i class="fa-brands fa-linkedin w-6 h-6"></i>
                   </a>
                 </li>
+                <Link href="">
+                  <button className="text-sm font-semibold text-gray-950 px-2 hover:text-purple-600 pb-4 pl-5">
+                    Sitemap
+                  </button>
+                </Link>
               </ul>
             </div>
           </div>
