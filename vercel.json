@@ -29,6 +29,12 @@
       "source": "/DrAlwars.html",
       "destination": "/projects/alwarresidence",
       "permanent": true
+    },
+    {
+      "source": "/MrAnands.html",
+      "destination": "/projects/anandresidence",
+      "permanent": true
     }
+    
   ]
 }
