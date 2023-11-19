@@ -74,15 +74,6 @@ const Footer = (props) => {
                     </svg>
                   </a>
                 </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="https://twitter.com/">
-                    <Image
-                      src={xlogo}
-                      className="h-6 w-6"
-                      alt="X Social Media Logo"
-                    />
-                  </Link>
-                </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center border-b-2 hover:text-purple-700 md:border-b-0 border-purple-900 md:hover:text-purple-600 md:hover-bg-transparent">
                   <a
                     href="https://www.linkedin.com/company/hmt-architects/"
