@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>https://hmtarchitects.com/</loc>
+	<lastmod>2023-11-19T21:05:28+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/hmtLogo.20270ecc.png&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/award1.66fa58b7.jpg&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/award2.b07ce0c7.jpg&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/design.65262de8.png&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/happy.7fe571ca.png&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/security.2d9a880a.png&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/1-min-min.f5297202.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/2-min-min.c759b1b3.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/3-min-min.e70ea6c8.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/4-min-min.d2b6630e.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/5-min-min.7aa3c22f.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/6-min-min.10b8c496.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/7-min-min.ba9a84d7.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/8-min-min.dd4c83ef.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/9-min-min.127a64fa.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/10-min-min.2800485d.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/11-min-min.c5574d34.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/12-min-min.2d30f38c.jpg&amp;w=384&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/image?url=/_next/static/media/2.a34a182f.jpg&amp;w=640&amp;q=75</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://hmtarchitects.com/_next/static/media/x-social-media-logo-icon.dd9884e8.svg</image:loc>
+	</image:image>
+</url>
+
+<url>
+  <loc>https://hmtarchitects.com/</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/about</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/contactus</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/sitemap</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/tagoreschool</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/meenakshividyashram</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/akshayahospital</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/senthilresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/hariresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/saravananresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/alwarresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/anandresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/periyasamiresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/sarathresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/sangeetharesidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/ashokresidence</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/mohankilpauk</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/farmhousedevaneri</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/sivakaur</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/srinivasankaranodai</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/muruganandhamkaur</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/karthikadindigul</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/adyarinterior</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/easternpalaceoffcomm</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/mbit</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/evergreen</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/srkhondaoffcomm</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/uthifactoryoffcomm</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hmtarchitects.com/projects/venkatmahal</loc>
+  <lastmod>2023-11-19T19:06:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
