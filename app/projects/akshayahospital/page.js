@@ -2,11 +2,26 @@
 import { data } from "../../../constants/akshaya_multispeciality_hospital.js";
 import { Footer } from "@/components";
 import Image from "next/image";
+import React, { useState } from "react";
+import logo from "../../../assets/cancel.png";
+
 export default function akshayahospital() {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalSrc, setModalSrc] = useState("");
+
+  const showModal = (src) => {
+    setModalVisible(true);
+    setModalSrc(src);
+  };
+
+  const closeModal = () => {
+    setModalVisible(false);
+  };
+
   return (
     <>
       <div className="flex flex-col">
-        <div className=" bg-white md:mb-5 pt-5 pb-3 ">
+        <div className="bg-white md:mb-5 pt-5 pb-3">
           <h1 className="text-3xl md:text-6xl pt-5 font-semibold text-black text-center">
             Akshaya Multispeciality Hospital
           </h1>
@@ -14,7 +29,7 @@ export default function akshayahospital() {
         <div className="flex md:flex-row flex-col mt-10">
           <div className="md:w-1/3 mt-10 ml-20 flex flex-col">
             <div>
-              <h1 className="text-2xl  font-semibold text-black">Scope</h1>
+              <h1 className="text-2xl font-semibold text-black">Scope</h1>
               <p>Architecture, Structural, Interior, Electrical & Plumbing</p>
             </div>
             <div>
@@ -32,7 +47,7 @@ export default function akshayahospital() {
                 Description
               </h1>
               <p>
-                The Hospital has been designed for Dr.Sivakumar, one of the
+              The Hospital has been designed for Dr.Sivakumar, one of the
                 leading doctors in Karur. Functional Zoning of spaces has been
                 done with ample natural lighting and ventilation. Contemporary
                 elements have been used in the design.
@@ -52,9 +67,42 @@ export default function akshayahospital() {
                     width={300}
                     height={200}
                     alt="/"
+                    onClick={() => {
+                  if (window.innerWidth >= 750) {
+                    showModal(item.img);
+                  }
+                }} 
                   />
                 </div>
               ))}
+            </div>
+
+            {/* Modal */}
+            <div
+              className={`${
+                modalVisible ? "" : "hidden"
+              } fixed top-0 left-0 z-80 w-screen h-screen bg-black/80 grid justify-center items-center`}
+            >
+              <div className="flex flex-col items-center relative mt-5">
+                <Image
+                  id="modal-img"
+                  className="max-w-[800px] max-h-[400px] object-cover"
+                  src={modalSrc}
+                  alt="/"
+                />
+                <Image
+                  className="w-20 h-15 cursor-pointer px-3 py-1 rounded-full absolute top-0 right-0"
+                  onClick={closeModal}
+                  style={{ marginTop: "1rem" }}
+                  src={logo}
+                  alt="/"
+                />
+                <div className="pt-3 pb-3">
+                  <h1 className="text-xl  text-white text-center">
+                    Akshaya Multispeciality Hospital
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -62,7 +110,7 @@ export default function akshayahospital() {
 
       <div class="flex items-center justify-center py-8">
         <a
-          href=""
+          href="../projects/senthilresidence"
           class="relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-gray-600 border-2 border-gray-600 rounded-full hover:text-white group hover:bg-white"
         >
           <span class="absolute left-0 block w-full h-0 transition-all bg-gray-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -90,3 +138,4 @@ export default function akshayahospital() {
     </>
   );
 }
+
