@@ -73,37 +73,37 @@ export const data = [
       id: 10,
       img:img10,
       link: '../projects/mohankilpauk',
-      name: "Mr. Ashok"
+      name: "Mr. Mohan"
     },
     {
       id: 11,
       img:img11,
       link: '../projects/farmhousedevaneri',
-      name: "Mr. Ashok"
+      name: "Mr. Nagarajan"
     },
     {
       id: 12,
       img:img12,
       link: '../projects/sivakaur',
-      name: "Mr. Ashok"
+      name: "Mr. Siva"
     },
     {
       id: 13,
       img:img13,
       link: '../projects/srinivasankaranodai',
-      name: "Mr. Ashok"
+      name: "Mr. Srinivasan"
     },
     {
       id: 14,
       img:img14,
       link: '../projects/muruganandhamkaur',
-      name: "Mr. Ashok"
+      name: "Mr. Muruganandham"
     },
     {
       id: 15,
       img:img15,
       link: '../projects/karthikadindigul',
-      name: "Mr. Ashok"
+      name: "Mrs. Karthika"
     },
   ];
   
