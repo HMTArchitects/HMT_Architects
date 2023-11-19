@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Head from "next/head";
 export default function sitemap() {
@@ -11,142 +12,139 @@ export default function sitemap() {
       <body className="ml-8">
         <div>
           <ol>
-            <li >
-              <a href="">Home</a>
+            <li>
+              <a href="/" className="hover:text-purple-800">Home</a>
               <ul>
                 <li>
-                  <a href="">Explore</a>
+                  <a href="/projects" className="hover:text-purple-800">Explore</a>
                 </li>
                 <li>
-                  <a href="">Contact Us</a>
+                  <a href="/contactus" className="hover:text-purple-800">Contact Us</a>
                 </li>
               </ul>
             </li>
             <li >
-              <a href="">About Us</a>
+              <a href="/about" className="hover:text-purple-800">About Us</a>
               <ul>
                 <li>
-                  <a href="">Explore my work</a>
+                  <a href="/projects" className="hover:text-purple-800">Explore my work</a>
                 </li>
               </ul>
             </li>
             <li >
-              <a href="">See Projects</a>
+              <a href="/projects" className="hover:text-purple-800">See Projects</a>
               <ol>
                 <li>
-                  <a href="">Institutions</a>
+                  <a>Institutions</a>
                   <ul>
                     <li>
-                      <a href="">Tagore School</a>
+                      <a href="/projects/tagoreschool" className="hover:text-purple-800">Tagore School</a>
                     </li>
                     <li>
-                      <a href="">Meenakshi Vishwa Vidyashram</a>
+                      <a href="/projects/meenakshividyashram" className="hover:text-purple-800">Meenakshi Vishwa Vidyashram</a>
                     </li>
                     <li>
-                      <a href="">Akshaya Multispeciality Hospital</a>
+                      <a href="/projects/akshayahospital" className="hover:text-purple-800">Akshaya Multispeciality Hospital</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="">Residential</a>
+                  <a>Residential</a>
                   <ul>
                     <li>
-                      <a href="">Mr. Senthil's</a>
+                      <a href="/projects/senthilresidence" className="hover:text-purple-800">Mr. Senthil's</a>
                     </li>
                     <li>
-                      <a href="">Mr. Hari's</a>
+                      <a href="/projects/hariresidence" className="hover:text-purple-800">Mr. Hari's</a>
                     </li>
                     <li>
-                      <a href="">Mr. Saravanan's</a>
+                      <a href="/projects/saravananresidence" className="hover:text-purple-800">Mr. Saravanan's</a>
                     </li>
                     <li>
-                      <a href="">Dr. Alwar's</a>
+                      <a href="/projects/alwarresidence" className="hover:text-purple-800">Dr. Alwar's</a>
                     </li>
                     <li>
-                      <a href="">Mr. Anand's</a>
+                      <a href="/projects/anandresidence" className="hover:text-purple-800">Mr. Anand's</a>
                     </li>
                     <li>
-                      <a href="">Mr. Periyasami's</a>
+                      <a href="/projects/periyasamiresidence" className="hover:text-purple-800">Mr. Periyasami's</a>
                     </li>
                     <li>
-                      <a href="">Mr. Sarath's</a>
+                      <a href="/projects/sarathresidence" className="hover:text-purple-800">Mr. Sarath's</a>
                     </li>
                     <li>
-                      <a href="">Mrs. Sangeetha's</a>
+                      <a href="/projects/sangeetharesidence" className="hover:text-purple-800">Mrs. Sangeetha's</a>
                     </li>
                     <li>
-                      <a href="">Mr. Ashok</a>
+                      <a href="/projects/ashokresidence" className="hover:text-purple-800">Mr. Ashok</a>
                     </li>
                     <li>
-                      <a href="">Mr. Mohan</a>
+                      <a href="/projects/mohankilpauk" className="hover:text-purple-800">Mr. Mohan</a>
                     </li>
                     <li>
-                      <a href="">Mr. Nagarajan</a>
+                      <a href="/projects/farmhousedevaneri" className="hover:text-purple-800">Mr. Nagarajan</a>
                     </li>
                     <li>
-                      <a href="">Mr. Siva</a>
+                      <a href="/projects/sivakaur" className="hover:text-purple-800">Mr. Siva</a>
                     </li>
                     <li>
-                      <a href="">Mr. Srinivasan</a>
+                      <a href="/projects/srinivasankaranodai" className="hover:text-purple-800">Mr. Srinivasan</a>
                     </li>
                     <li>
-                      <a href="">Mr. Muruganandham</a>
+                      <a href="/projects/muruganandhamkaur" className="hover:text-purple-800">Mr. Muruganandham</a>
                     </li>
                     <li>
-                      <a href="">Mrs. Karthika</a>
+                      <a href="/projects/karthikadindigul" className="hover:text-purple-800">Mrs. Karthika</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="">Commercial and Office</a>
+                  <a>Commercial and Office</a>
                   <ul>
                     <li>
-                      <a href="">Adyar Interior</a>
+                      <a href="/projects/adyarinterior" className="hover:text-purple-800">Adyar Interior</a>
                     </li>
                     <li>
-                      <a href="">Eastern Palace</a>
+                      <a href="/projects/easternpalaceoffcomm" className="hover:text-purple-800">Eastern Palace</a>
                     </li>
                     <li>
-                      <a href="">MBit</a>
+                      <a href="/projects/mbit" className="hover:text-purple-800">MBit</a>
                     </li>
                     <li>
-                      <a href="">Evergreen</a>
+                      <a href="/projects/evergreen" className="hover:text-purple-800">Evergreen</a>
                     </li>
                     <li>
-                      <a href="">SRK Honda</a>
+                      <a href="/projects/srkhondaoffcomm" className="hover:text-purple-800">SRK Honda</a>
                     </li>
                     <li>
-                      <a href="">Uthiramerur Factory</a>
+                      <a href="/projects/uthifactoryoffcomm" className="hover:text-purple-800">Uthiramerur Factory</a>
                     </li>
                     <li>
-                      <a href="">Venkat Mahal</a>
+                      <a href="/projects/venkatmahal" className="hover:text-purple-800">Venkat Mahal</a>
                     </li>
                   </ul>
                 </li>
               </ol>
             </li>
             <li >
-              <a href="">Contact Us</a>
+              <a href="/contactus" className="hover:text-purple-800">Contact Us</a>
               <ul>
                 <li>
-                  <a href="">View Projects</a>
+                  <a href="/projects" className="hover:text-purple-800">View Projects</a>
                 </li>
               </ul>
             </li>
             <li >
-              <a href="">Social Links</a>
+              <a>Social Links</a>
               <ul>
                 <li>
-                  <a href="">Instagram</a>
+                  <a href="https://www.instagram.com/hmt_architects/" className="hover:text-purple-800">Instagram</a>
                 </li>
                 <li>
-                  <a href="">Facebook</a>
+                  <a href="https://www.facebook.com/HMTArch/" className="hover:text-purple-800">Facebook</a>
                 </li>
                 <li>
-                  <a href="">Twitter</a>
-                </li>
-                <li>
-                  <a href="">LinkedIn</a>
+                  <a href="https://www.linkedin.com/company/hmt-architects/about/" className="hover:text-purple-800">LinkedIn</a>
                 </li>
               </ul>
             </li>
