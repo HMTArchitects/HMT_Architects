@@ -7,6 +7,12 @@ import img6 from 'assets/Residential/Mr. Sarath.jpg'
 import img7 from 'assets/Residential/Mr. Saravanan.jpg'
 import img8 from 'assets/Residential/Mr. Senthil.jpg'
 import img9 from 'assets/Residential/Mrs. Sangeetha.jpg'
+import img10 from 'assets/Residential/Mr. Mohan.jpeg'
+import img11 from 'assets/Residential/Mr. Nagarajan.jpg'
+import img12 from 'assets/Residential/Mr. Siva.jpg'
+import img13 from 'assets/Residential/Mr. Srinivasan.jpg'
+import img14 from 'assets/Residential/Mr. Muruganandham.jpg'
+import img15 from 'assets/Residential/Mrs. Karthika.jpg'
 
 export const data = [
     {
@@ -61,6 +67,42 @@ export const data = [
       id: 9,
       img:img3,
       link: '../projects/ashokresidence',
+      name: "Mr. Ashok"
+    },
+    {
+      id: 10,
+      img:img10,
+      link: '../projects/mohankilpauk',
+      name: "Mr. Ashok"
+    },
+    {
+      id: 11,
+      img:img11,
+      link: '../projects/farmhousedevaneri',
+      name: "Mr. Ashok"
+    },
+    {
+      id: 12,
+      img:img12,
+      link: '../projects/sivakaur',
+      name: "Mr. Ashok"
+    },
+    {
+      id: 13,
+      img:img13,
+      link: '../projects/srinivasankaranodai',
+      name: "Mr. Ashok"
+    },
+    {
+      id: 14,
+      img:img14,
+      link: '../projects/muruganandhamkaur',
+      name: "Mr. Ashok"
+    },
+    {
+      id: 15,
+      img:img15,
+      link: '../projects/karthikadindigul',
       name: "Mr. Ashok"
     },
   ];
