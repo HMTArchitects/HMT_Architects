@@ -11,8 +11,6 @@ import img10 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/10.jpg'
 import img11 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/11.jpg'
 import img12 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/12.jpg'
 import img13 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/13.jpg'
-import img14 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/14-min.jpg'
-import img15 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/15-min.jpg'
 import img16 from 'assets/Institutions/Akshaya_Multispeciality_Hospital/hero.jpg'
 
 
@@ -68,14 +66,6 @@ export const data = [
       {
         id: 13,
         img:img13,
-      },
-      {
-        id: 14,
-        img:img14,
-      },
-      {
-        id: 15,
-        img:img15,
       },
       {
         id: 16,
