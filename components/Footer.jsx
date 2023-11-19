@@ -94,7 +94,7 @@ const Footer = (props) => {
                     <i class="fa-brands fa-linkedin w-6 h-6"></i>
                   </a>
                 </li>
-                <Link href="">
+                <Link href="/sitemap">
                   <button className="text-sm font-semibold text-gray-950 px-2 hover:text-purple-600 pb-4 pl-5">
                     Sitemap
                   </button>

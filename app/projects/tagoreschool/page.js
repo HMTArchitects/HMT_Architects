@@ -62,7 +62,7 @@ export default function tagoreschool() {
 
       <div class="flex items-center justify-center py-8">
         <a
-          href=""
+          href="../projects/meenakshividyashram"
           class="relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-gray-600 border-2 border-gray-600 rounded-full hover:text-white group hover:bg-white"
         >
           <span class="absolute left-0 block w-full h-0 transition-all bg-gray-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
