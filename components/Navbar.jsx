@@ -69,11 +69,11 @@ function NavBar(props) {
       </div>
 
       {/* Responsive Section */}
-      <div className=" grid grid-cols-3 justify-between px-10 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white lg:hidden z-50">
+      <div className=" grid grid-cols-4 justify-between px-10 py-2 w-screen h-20 items-center border-b-[1px] fixed top-0 bg-white lg:hidden z-50">
         <Link href="/">
           <Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" />
         </Link>
-        <div className="grig justify-items-center">
+        <div className="grid justify-items-center col-span-2">
           <div className="flex justify-evenly items-center border rounded-full shadow-md h-14 w-40 lg:hidden">
             <Link href="/about">
               <button className="border-r-2 text-sm text-gray-950 px-6">
@@ -81,8 +81,8 @@ function NavBar(props) {
               </button>
             </Link>
             <Link href="/projects">
-              <button className=" text-sm text-gray-950 px-6">
-                <i className="fa-regular fa-eye   bg-red-600 text-white rounded-full p-2  hover:bg-yellow-600"></i>
+              <button className="text-sm text-gray-950 px-6">
+                <i className="fa-regular fa-eye  bg-red-600 text-white rounded-full p-2  hover:bg-yellow-600"></i>
               </button>
             </Link>
 
