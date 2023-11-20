@@ -13,7 +13,7 @@ export default function sitemap() {
         <div>
           <ol>
             <li>
-              <a href="/" className="hover:text-purple-600">Home</a>
+              <a href="/" className="hover:text-purple-600 text-xl font-bold">Home</a>
               <ul>
                 <li>
                   <a href="/projects" className="hover:text-purple-600">Explore</a>
@@ -24,7 +24,7 @@ export default function sitemap() {
               </ul>
             </li>
             <li >
-              <a href="/about" className="hover:text-purple-600">About Us</a>
+              <a href="/about" className="hover:text-purple-600 text-xl font-bold">About Us</a>
               <ul>
                 <li>
                   <a href="/projects" className="hover:text-purple-600">Explore my work</a>
@@ -32,10 +32,10 @@ export default function sitemap() {
               </ul>
             </li>
             <li >
-              <a href="/projects" className="hover:text-purple-600">See Projects</a>
+              <a href="/projects" className="hover:text-purple-600 text-xl font-bold">See Projects</a>
               <ol>
                 <li>
-                  <a>Institutions</a>
+                  <a className="text-xl font-semibold">Institutions</a>
                   <ul>
                     <li>
                       <a href="/projects/tagoreschool" className="hover:text-purple-600">Tagore School</a>
@@ -49,7 +49,7 @@ export default function sitemap() {
                   </ul>
                 </li>
                 <li>
-                  <a>Residential</a>
+                  <a className="text-xl font-semibold">Residential</a>
                   <ul>
                     <li>
                       <a href="/projects/senthilresidence" className="hover:text-purple-600">Mr. Senthil's</a>
@@ -99,7 +99,7 @@ export default function sitemap() {
                   </ul>
                 </li>
                 <li>
-                  <a>Commercial and Office</a>
+                  <a className="text-xl font-semibold">Commercial and Office</a>
                   <ul>
                     <li>
                       <a href="/projects/adyarinterior" className="hover:text-purple-600">Adyar Interior</a>
@@ -127,7 +127,7 @@ export default function sitemap() {
               </ol>
             </li>
             <li >
-              <a href="/contactus" className="hover:text-purple-600">Contact Us</a>
+              <a href="/contactus" className="hover:text-purple-600 text-xl font-bold">Contact Us</a>
               <ul>
                 <li>
                   <a href="/projects" className="hover:text-purple-600">View Projects</a>
@@ -135,7 +135,7 @@ export default function sitemap() {
               </ul>
             </li>
             <li >
-              <a>Social Links</a>
+              <a className="text-xl font-bold">Social Links</a>
               <ul>
                 <li>
                   <a href="https://www.instagram.com/hmt_architects/" className="hover:text-purple-600">Instagram</a>
