@@ -74,7 +74,7 @@ function NavBar(props) {
           <Image src={logo} className="h-16 w-20" alt="HMT Architects Logo" />
         </Link>
         <div className="grid justify-items-center col-span-2">
-          <div className="flex justify-evenly items-center border rounded-full shadow-md h-14 w-40 lg:hidden">
+          <div className="flex justify-evenly items-center border rounded-full shadow-md h-12 w-36 lg:hidden ml-5">
             <Link href="/about">
               <button className="border-r-2 text-sm text-gray-950 px-6">
                 <i className="fa-solid fa-address-card   bg-red-600 text-white rounded-full p-2  hover:bg-yellow-600"></i>
