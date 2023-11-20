@@ -32,7 +32,6 @@ export default function Contact() {
                         </div>                    
                         <div className="flex pb-2 items-center">
                         <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.0311046943877!2d80.21173595260018!3d13.041956172795492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266e94193970f%3A0x621ebe35d760ea0!2sHMT%20Architects!5e0!3m2!1sen!2sin!4v1666200523162!5m2!1sen!2sin"
-                           
                             id=""
                             className="md:w-[640px] md:h-[300px] sm:w-[300px] sm:h-[300px]"
                             display="block"
