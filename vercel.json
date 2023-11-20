@@ -29,6 +29,91 @@
       "source": "/DrAlwars.html",
       "destination": "/projects/alwarresidence",
       "permanent": true
+    },
+    {
+      "source": "/MrAnands.html",
+      "destination": "/projects/anandresidence",
+      "permanent": true
+    },
+    {
+      "source": "/MrAshoks.html",
+      "destination": "/projects/ashokresidence",
+      "permanent": true
+    },
+     {
+      "source": "/MrHaris.html",
+      "destination": "/projects/hariresidence",
+      "permanent": true
+    },
+     {
+      "source": "/MrPeriyasamys.html",
+      "destination": "/projects/periyasamiresidence",
+      "permanent": true
+    },
+    {
+      "source": "/MrSaraths.html",
+      "destination": "/projects/sarathresidence",
+      "permanent": true
+    },
+    {
+      "source": "/MrSaravanans.html",
+      "destination": "/projects/saravananresidence",
+      "permanent": true
+    },
+    {
+      "source": "/MrSenthils.html",
+      "destination": "/projects/senthilresidence",
+      "permanent": true
+    },
+    {
+      "source": "/MrsSangeethas.html",
+      "destination": "/projects/sangeetharesidence",
+      "permanent": true
+    },
+    {
+      "source": "/SRKHonda.html",
+      "destination": "/projects/srkhondaoffcomm",
+      "permanent": true
+    },
+    {
+      "source": "/adyarInterior.html",
+      "destination": "/projects/adyarinterior",
+      "permanent": true
+    },
+    {
+      "source": "/akshayaMultiSpecialityHospital.html",
+      "destination": "/projects/akshayahospital",
+      "permanent": true
+    },
+    {
+      "source": "/easternPalace.html",
+      "destination": "/projects/easternpalaceoffcomm",
+      "permanent": true
+    },
+    {
+      "source": "/evergreen.html",
+      "destination": "/projects/evergreen",
+      "permanent": true
+    },
+    {
+      "source": "/mbit.html",
+      "destination": "/projects/mbit",
+      "permanent": true
+    },
+    {
+      "source": "/meenakshiVishwaVidyashram.html",
+      "destination": "/projects/meenakshividyashram",
+      "permanent": true
+    },
+    {
+      "source": "/uthiramerurFactory.html",
+      "destination": "/projects/uthifactoryoffcomm",
+      "permanent": true
+    },
+    {
+      "source": "/venkatMahal.html",
+      "destination": "/projects/venkatmahal",
+      "permanent": true
     }
   ]
 }
