@@ -18,7 +18,7 @@ export default function Contact() {
                                     <path d="M15 3a6 6 0 0 1 6 6" />
                                 </svg>
                             </div>
-                            <p className="pl-4 text-black text-base">+91 983 321 321</p>
+                            <p className="pl-4 text-black text-base">+91 9789903777</p>
                         </div>
                         <div className="flex items-center">
                             <div>
@@ -28,7 +28,7 @@ export default function Contact() {
                                     <polyline points="3 7 12 13 21 7" />
                                 </svg>
                             </div>
-                            <p className="pl-4 text-black text-base mb-6">hmtarchitects106@gmail.com</p>
+                            <p className="pl-4 text-black text-base mb-6">ar.hemanathan@gmail.com</p>
                         </div>                    
                         <div className="flex pb-2 items-center">
                         <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.0311046943877!2d80.21173595260018!3d13.041956172795492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266e94193970f%3A0x621ebe35d760ea0!2sHMT%20Architects!5e0!3m2!1sen!2sin!4v1666200523162!5m2!1sen!2sin"
