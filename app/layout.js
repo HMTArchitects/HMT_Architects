@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <link rel="canonical" href="https://hmtarchitects.com/" />
+      <meta name="google-site-verification" content="Tq55yXLiTkSiAfBkejpZ9EsFK5sXK9HQ2Ykftwi87Lg" />
       </head>
       <body> 
         <Navbar/>
